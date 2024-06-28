@@ -173,6 +173,7 @@ t.test(mydata[mydata$Gender=="M",1], mu=175, alternative="greater")
 
 # Bonus ----
 # violin plot
+# install.packages("ggplot2") # if needed
 library(ggplot2)
 p <- ggplot(mydata, aes(x= Gender, y=Height.in.cm, fill=Gender)) + 
   geom_violin() + geom_boxplot(width=.1)
