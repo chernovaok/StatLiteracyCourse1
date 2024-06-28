@@ -7,7 +7,7 @@
 #############################
 
 # Read dataset ----
-mydata <- read.csv("C:/Users/ochernova/Downloads/HeightSurvey2024.csv", header = TRUE, sep = ";")
+mydata <- read.csv("C:/Users/Downloads/HeightSurvey2024.csv", header = TRUE, sep = ";")
 
 head(mydata)
 str(mydata)
